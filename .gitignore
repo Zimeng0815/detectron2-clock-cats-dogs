@@ -1,0 +1,19 @@
+# Python 临时文件
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# VS Code 本地设置
+.vscode/
+
+# 大型模型权重和训练检查点
+*.pth
+*.pkl
+**/output/
+
+# TensorBoard 日志
+events.out.tfevents.*
+
+# 完整数据集不上传
+data/
